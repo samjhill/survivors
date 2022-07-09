@@ -2501,7 +2501,7 @@
                         "duration": 0.25,
                         "__scriptTabs": "end",
                         "__comment": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "script": [
@@ -2722,7 +2722,8 @@
                                     "customEventId": "b940feb2-eb15-430c-9677-34a8d2c3adda",
                                     "$actor[0]$": "38940855-ac74-43e9-b14e-8e7a6c174c6e",
                                     "$variable[0]$": "17",
-                                    "$variable[1]$": "18"
+                                    "$variable[1]$": "18",
+                                    "__collapse": true
                                 },
                                 "id": "b8cfc80f-62ba-44ed-9aaf-35fb53285f7e"
                             }
@@ -11174,84 +11175,6 @@
                         "false": []
                     },
                     "id": "61e6abd3-872a-4b41-be13-2ff7b9fe1c43"
-                },
-                {
-                    "command": "EVENT_IF_EXPRESSION",
-                    "args": {
-                        "expression": "$V0$ > 20",
-                        "__collapseElse": true,
-                        "__collapse": false
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_LAUNCH_PROJECTILE",
-                                "args": {
-                                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
-                                    "spriteStateId": "",
-                                    "actorId": "player",
-                                    "x": 0,
-                                    "y": null,
-                                    "otherActorId": "$self$",
-                                    "direction": "right",
-                                    "angle": 45,
-                                    "angleVariable": "0",
-                                    "directionType": "angle",
-                                    "initialOffset": 0,
-                                    "speed": 1,
-                                    "animSpeed": 15,
-                                    "lifeTime": 2,
-                                    "collisionGroup": "3",
-                                    "collisionMask": [
-                                        "3"
-                                    ],
-                                    "__collapse": false
-                                },
-                                "id": "be4939a8-1074-41f9-908c-517d5c74e2db"
-                            }
-                        ],
-                        "false": []
-                    },
-                    "id": "af1eee25-4208-48fd-a1d8-ffff28b4302a"
-                },
-                {
-                    "command": "EVENT_IF_EXPRESSION",
-                    "args": {
-                        "expression": "$V0$ > 30",
-                        "__collapseElse": true,
-                        "__collapse": false
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_LAUNCH_PROJECTILE",
-                                "args": {
-                                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
-                                    "spriteStateId": "",
-                                    "actorId": "player",
-                                    "x": 0,
-                                    "y": null,
-                                    "otherActorId": "$self$",
-                                    "direction": "right",
-                                    "angle": -45,
-                                    "angleVariable": "0",
-                                    "directionType": "angle",
-                                    "initialOffset": 0,
-                                    "speed": 1,
-                                    "animSpeed": 15,
-                                    "lifeTime": 2,
-                                    "collisionGroup": "3",
-                                    "collisionMask": [
-                                        "3"
-                                    ],
-                                    "__collapse": false
-                                },
-                                "id": "f2dddccc-f958-4df1-b93e-4b19318adce0"
-                            }
-                        ],
-                        "false": []
-                    },
-                    "id": "d1e1df38-8c9f-4496-a4a1-c329f4be1ef8"
                 }
             ]
         },
@@ -11610,7 +11533,7 @@
                         },
                         "moveType": "diagonal",
                         "useCollisions": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "da6b373a-8e0b-48b8-b635-0d87dde19a36"
                 }

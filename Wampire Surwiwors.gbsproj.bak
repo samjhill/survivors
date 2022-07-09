@@ -12097,9 +12097,9 @@
                                     "other": "rnd",
                                     "vectorY": "T0",
                                     "value": "1",
-                                    "minValue": 5,
-                                    "maxValue": 30,
-                                    "__collapse": true
+                                    "minValue": 10,
+                                    "maxValue": 20,
+                                    "__collapse": false
                                 }
                             },
                             {
@@ -12111,8 +12111,8 @@
                                     "other": "rnd",
                                     "vectorY": "T0",
                                     "value": "1",
-                                    "minValue": 5,
-                                    "maxValue": 30,
+                                    "minValue": 10,
+                                    "maxValue": 20,
                                     "__collapse": false
                                 }
                             },

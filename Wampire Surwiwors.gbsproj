@@ -2501,7 +2501,7 @@
                         "duration": 0.25,
                         "__scriptTabs": "end",
                         "__comment": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "script": [
@@ -2510,7 +2510,7 @@
                                 "args": {
                                     "expression": "$15$ < 1",
                                     "__collapseElse": true,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -2519,16 +2519,16 @@
                                             "args": {
                                                 "__scriptTabs": "layout",
                                                 "minHeight": 4,
-                                                "maxHeight": 7,
-                                                "showBorder": "true",
+                                                "maxHeight": 8,
+                                                "showBorder": false,
                                                 "textX": 1,
-                                                "textY": 2,
+                                                "textY": 1,
                                                 "textHeight": 3,
                                                 "closeWhen": "key",
                                                 "closeButton": "a",
                                                 "clearPrevious": true,
                                                 "text": [
-                                                    "GAME OVER"
+                                                    "GAME OVER\nScore: $14$"
                                                 ],
                                                 "avatarId": ""
                                             },
@@ -2541,7 +2541,8 @@
                                                 "x": 0,
                                                 "y": 0,
                                                 "direction": "",
-                                                "fadeSpeed": "2"
+                                                "fadeSpeed": "2",
+                                                "__collapse": true
                                             },
                                             "id": "63db0de1-0c01-4930-b600-240086bd8af1"
                                         }
@@ -12307,8 +12308,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 198,
-        "worldScrollY": 326,
+        "worldScrollX": 44,
+        "worldScrollY": 209,
         "zoom": 165.35308443009853,
         "customColorsEnabled": false,
         "sgbEnabled": false,
